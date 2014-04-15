@@ -1,0 +1,67 @@
+/* app css stylesheet */
+body {
+	font-family: calibri;
+	width: 420px;
+	margin: 15px auto 0 auto;
+	border: 0.5px solid black;
+	
+}
+div {
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+}
+img {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: auto;
+	padding-bottom: 10px;
+}
+h2{
+
+	padding-left: 100px;
+}
+p{
+
+	padding-left: 100px;
+}
+.from {
+
+	font-size: 30px;
+	
+}
+.message{
+	
+	font-size: 20px;
+}
+.some {
+	border-bottom: 1px solid black;
+}
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
